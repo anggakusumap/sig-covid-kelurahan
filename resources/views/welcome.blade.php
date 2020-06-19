@@ -80,7 +80,7 @@
 
 <div class="card card-navy">
   <div class="card-header">
-    <h3 class="card-title">Data Sebaran Kasus Covid-19 Provinsi Bali sampai tanggal <strong>{{$tanggal_saat_ini}}</strong></h3>
+    <h3 class="card-title">Data Sebaran Kasus Covid-19 sampai tanggal <strong>{{$tanggal_saat_ini}}</strong></h3>
   </div>
   <!-- /.card-header -->
   <div class="card-body table-responsive p-0">
