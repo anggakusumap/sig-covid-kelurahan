@@ -236,8 +236,8 @@
                 var hijau_muda = {opacity:'1',color:'#000',fillOpacity:'1', fillColor:'#ADFF2F'};
                 var hijau_tua = {opacity:'1',color:'#000',fillOpacity:'1', fillColor:'#006400'};
                 var kuning = {opacity:'1',color:'#000',fillOpacity:'1', fillColor:'#ffff31'};
-                var merah_muda = {opacity:'1',color:'#000',fillOpacity:'1', fillColor:'#8b0000'};
-                var merah_tua = {opacity:'1',color:'#000',fillOpacity:'1', fillColor:'#ff355e'};
+                var merah_muda = {opacity:'1',color:'#000',fillOpacity:'1', fillColor:'#ff355e'};
+                var merah_tua = {opacity:'1',color:'#000',fillOpacity:'1', fillColor:'#8b0000'};
                 if(!Array.isArray(dataMap) || !dataMap.length == 0){
                     var searchResult = dataMap.filter(function(it){
                       return it.kecamatan.replace(/\s/g,'').toLowerCase() === kec.replace(/\s/g,'').toLowerCase() &&
