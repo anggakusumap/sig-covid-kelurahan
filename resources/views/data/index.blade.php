@@ -19,7 +19,7 @@
                 <div class="card-body">
                     @if ($kelurahan_belum_diupdate->count() > 0)
                     <div class="callout callout-danger red">
-                    <h4><i class="icon fa fa-calendar red"></i> Data Kelurahan Yang Belum Diupdate per <strong>{{$tanggal_saat_ini}}</strong> <a href="#" id="expandable">Lihat detail</a></h4>
+                    <h5><i class="icon fa fa-calendar red"></i> Data Kelurahan Belum Di-update per <strong>{{$tanggal_saat_ini}}</strong> <a href="#" id="expandable">Lihat detail</a></h5>
                         <p id="listKelurahan" style="display:none">
                         @foreach ($kelurahan_belum_diupdate as $item)
                         {{$item->kelurahan}} ,
